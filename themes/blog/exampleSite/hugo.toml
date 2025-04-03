@@ -1,18 +1,18 @@
-title = "Echoes Of Wraeclast"
-baseURL = 'https://localhost/'
+title = "Awesome Hugo blog"
+baseURL = 'https://hba.sid.one/'
 
 # This is what goes in <html lang="">
-languageCode = 'pt-br'
+languageCode = 'en-us'
 
 # This defines how dates are formatted
-defaultContentLanguage = "pt-br"
+defaultContentLanguage = "en-gb"
 
 # Enable emojis globally
 enableEmoji = true
 ignoreErrors = ["additional-script-loading-error"] # ignore error of loading additional scripts.
 
 # traditional way: theme component resides in directory 'themes'
-theme = "blog"
+theme = "hugo-blog-awesome"
 
 # modern way: pull in theme component as hugo module
 #[module]
@@ -507,7 +507,7 @@ theme = "blog"
 
 [[params.socialIcons]]
 name = "github"
-url = "https://github.com/vbell0"
+url = "https://github.com/hugo-sid"
 
 [[params.socialIcons]]
 name = "twitter"
@@ -516,7 +516,3 @@ url = "https://twitter.com"
 [[params.socialIcons]]
 name = "Rss"
 url = "/index.xml"
-
-[caches]
-  [caches.images]
-    dir = ':cacheDir/images'
